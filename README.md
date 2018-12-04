@@ -1,16 +1,16 @@
-# Title
+# Reviewing the DOM
 
-## Learning Goals
+Q: What happens if you change the DOM?
+A: The web page as rendered on your screen updates.
 
--SWBAT 1
--SWBAT 2
+Q: What tools can we use to change the DOM?
+A: DevTools and JavaScript
 
-## Introduction
+Q: What does DOM stand for?
+A: Document Object Model
 
-## SWBAT 1
+Q: What initially populates the DOM?
+A: HTML page
 
-## SWBAT 2
-
-## Conclusion
-
-## Resources
+Q: What are the two JavaScript objects we can access the DOM with?
+A: `window` and `document`.
