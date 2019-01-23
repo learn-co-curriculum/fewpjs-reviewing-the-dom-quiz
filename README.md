@@ -1,16 +1,29 @@
 # Reviewing the DOM
 
-Q: What happens if you change the DOM?
-A: The web page as rendered on your screen updates.
+```html
+<htmll>
+  <div>
+    <ul>
+      <li><span id="dog">Poodle</li>
+      <li><span id="king-cobra">Nag</li>
+      <li><span id="mongoose">Joe Mongoose</li>
+   </ul>
+  </div>
+</html>
+```
 
-Q: What tools can we use to change the DOM?
-A: DevTools and JavaScript
+* Given a sample of HTML, which command correctly targets the `<span>` with the id of `dog`?
+A: `document.getElementById("dog")`
 
-Q: What does DOM stand for?
-A: Document Object Model
+* Given a sample of HTML, which command correctly targets and deletes the `<span>` with the id of `king-cobra`?
+A: `document.getElementById("dog")`
+W: `document.getElementsByClass("dog").delete()
 
-Q: What initially populates the DOM?
-A: HTML page
+* Given a sample of HTML, update the <span> with the id of `mongoose` to have the name "Rikki-Tikki Tavi"
+A: `document.getElementById("mongoose").innerText = "Rikki-Tikki Tavi"`
 
-Q: What are the two JavaScript objects we can access the DOM with?
-A: `window` and `document`.
+* Which of the following commands would create a new HTML paragraph node containing the text: "No Bananas, Today"
+A: ``
+
+* Which command whould you use to target all the `<li>` on the page
+A: `document.getElementsByTagName("li")`
