@@ -1,7 +1,8 @@
 # Reviewing the DOM
 
 ```html
-<htmll>
+<html>
+  <h1>List of pets ideal for city-dwellers</h1>
   <div>
     <ul>
       <li><span id="dog">Poodle</li>
